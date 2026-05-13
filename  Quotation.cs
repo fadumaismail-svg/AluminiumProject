@@ -10,7 +10,7 @@ namespace AluminumProject
         public string ProjectName { get; set; }
         public List<Material> SelectedMaterials { get; set; } = new List<Material>();
 
-        // Function to calculate the total pricce of materials 
+        // Function to calculate the total price of materials 
         public double CalculateTotalAmount()
         {
             double total = 0;
