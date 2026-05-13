@@ -12,7 +12,7 @@ namespace AluminumProject
         public int StockQuantity { get; set; }
         public string SupplierCompany { get; set; }
 
-        //ف (File-based)
+        // Converting object to a single line for filr storage (File-based)
         public override string ToString()
         {
             return $"{MaterialName};{MaterialType};{Unit};{Price};{StockQuantity};{SupplierCompany}";
